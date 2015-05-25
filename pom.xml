@@ -6,7 +6,7 @@
 
   <groupId>hu.unideb.inf</groupId>
   <artifactId>Huszar</artifactId>
-  <version>0.6</version>
+  <version>1.0</version>
 
   <url>https://github.com/laczkazoli/Huszar</url>
   <description>
@@ -99,7 +99,7 @@
             <configuration>
               <rules>
                 <requireJavaVersion>
-                  <version>1.5</version>
+                  <version>1.8</version>
                 </requireJavaVersion>
               </rules>
             </configuration>
@@ -116,7 +116,7 @@
           <archive>
             <manifest>
               <mainClass>
-                hu.unideb.inf.Huszar
+                pkg.Huszar
               </mainClass>
             </manifest>
           </archive>
@@ -151,7 +151,7 @@
         <artifactId>javafx-maven-plugin</artifactId>
         <version>8.1.2</version>
         <configuration>
-          <mainClass>hu.unideb.inf.JCardGamesFX.klondike.KlondikeApp</mainClass>
+          <mainClass>Huszar</mainClass>
         </configuration>
       </plugin>
 
