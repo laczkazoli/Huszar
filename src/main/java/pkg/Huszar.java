@@ -813,15 +813,15 @@ public class Huszar {
 		 * Initialize the imagines.
 		 */
 		ClassLoader cl = this.getClass().getClassLoader();
-		Icon image1  = new ImageIcon(cl.getResource("feher.jpg"));
+		Icon image1  = new ImageIcon(cl.getResource("feher.png"));
 		final JLabel imagelabel = new JLabel(image1);
 		imagelabel.setBounds(5, 5, 80, 80);
 		
-		Icon image3  = new ImageIcon(cl.getResource("fekete.jpg"));
+		Icon image3  = new ImageIcon(cl.getResource("fekete.png"));
 		final JLabel imagelabel3 = new JLabel(image3);
 		imagelabel.setBounds(565, 565, 80, 80);
 		
-		Icon image2  = new ImageIcon(cl.getResource("x.jpg"));
+		Icon image2  = new ImageIcon(cl.getResource("x.png"));
 		final JLabel imagelabel2 = new JLabel(image2);
 		
 		
